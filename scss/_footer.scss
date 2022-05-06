@@ -1,0 +1,38 @@
+.footer {
+    background-color: $bgcolor-dark;
+    padding: 33px 0 70px 0;
+    .container {
+        display: flex;
+        justify-content: space-between;
+    } 
+    .footer__logo {
+        text-align: center;
+        display: flex;
+        width: 100px;
+        margin-bottom: 25px;
+        .imgsmall__blueImg {
+            margin-right: 10px;
+            margin-top: 3px;
+        }
+        .footer__logo-title {
+            text-transform: uppercase;
+            font-family: $font-main; 
+            font-size: $fsize-three;
+            font-weight: bold;
+            color: $white;
+        }
+    }
+    .data__address {
+        padding-bottom: 17px;
+        font-style: normal;
+        & p {
+            font-size: $fsize-four;
+        }
+    }
+    .data__link {
+        font-family: $font-main;
+    }
+    .footer__copyright {
+        padding-top: 56px;
+    }
+}

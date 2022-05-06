@@ -1,0 +1,27 @@
+.video-section {
+    text-align: center;
+    background-image: url(../assets/section-img.png);
+    background-size: cover;
+    min-width: 100%;
+    background-position: 100% 100%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    .app-section__title {
+        color: $white;
+        margin-bottom: 50px;
+    }
+    .app-section__videobutton {
+        background-color: $light-blue;
+        border: none;
+        border-radius: 50%;
+        padding: 25px 41px 25px 56px;
+        position: relative;
+        margin-bottom: 55px;
+        color: $white;
+        font-size: $fsize-eight;
+    }
+    .app-section__subtitle {
+        color: $white;
+    }
+}
+
