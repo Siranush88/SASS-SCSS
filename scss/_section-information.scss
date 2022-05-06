@@ -15,12 +15,9 @@
         margin-bottom: 50px;
         display: flex;
         .app-section__text-info {
-           width: 50%;
+           flex: 50%;
            color: $grey;
            padding-right: 40px;
-        }
-        & p + p {
-            padding-left: 40px;
         }
     }
     .app-section__button {
